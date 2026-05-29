@@ -21,4 +21,4 @@ title=$(jinjanate "$titlefile" "$GITHUB_EVENT_PATH")
 message=$(jinjanate "$messagefile" "$GITHUB_EVENT_PATH")
 
 # Uses the Apprise CLI tool to send the notifciation
-apprise -t "$title" -b "$message" $APPRISE_URL
+apprise -i "markdown" -t "$title" -b "$message" $APPRISE_URL
