@@ -1,5 +1,5 @@
-name: Apprise Notification
-author: Christian Studer <cstuder@existenz.ch>
+name: Apprise Notification - alydevs test
+author: Christian Studer <cstuder@existenz.ch>, Aly Smith <aly@aly.pet>
 description: Send a dynamic push notification to every single platform thanks to the Apprise library
 
 inputs:
